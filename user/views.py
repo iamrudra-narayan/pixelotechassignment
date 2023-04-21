@@ -14,7 +14,7 @@ def home(request):
 
 def send_otp(mobile , otp):
     account_sid = 'AC1377db0737256c348fc40a77e5f15a2c'
-    auth_token = '601750878cc1678442f26f36fbeddefb'
+    auth_token = '173c10cd18f4e0415eca4e4006a7d8de'
   
     client = Client(account_sid, auth_token)
 
